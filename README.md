@@ -1,4 +1,4 @@
-# Praktikum4
+# Praktikum4-Pertemuan 7
 # Latihan 1
 
 <img width="536" height="286" alt="image" src="https://github.com/user-attachments/assets/d2c59eaf-c510-4310-8434-11bb5bcf8c42" />
