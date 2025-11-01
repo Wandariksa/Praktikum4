@@ -5,21 +5,21 @@
 
 Menggunakan program phyton :
 
-import random
-# meminta input dari pengguna untuk jumlah bilangan
-n = int(input("masukkan jumlah n: "))
+    import random
+    # meminta input dari pengguna untuk jumlah bilangan
+    n = int(input("masukkan jumlah n: "))
 
-# menggunakan loop while untuk menghasilkan bilangan acak
-# sampai n bilangan yang kurang dari 0.5 ditemukan
-while n > 0:
-    # menghasilkan bilangan acak antara 0.0 dan 1.0
-    random_number = random.random()
+    # menggunakan loop while untuk menghasilkan bilangan acak
+    # sampai n bilangan yang kurang dari 0.5 ditemukan
+    while n > 0:
+        # menghasilkan bilangan acak antara 0.0 dan 1.0
+        random_number = random.random()
 
-    # memeriksa apakah bilangan acak kurang dari 0.5
-    if random_number < 0.5:
-        # menampilkan bilangan jika memenuhi syarat
-        print(random_number)
+        # memeriksa apakah bilangan acak kurang dari 0.5
+        if random_number < 0.5:
+            # menampilkan bilangan jika memenuhi syarat
+            print(random_number)
 
-        # mengurangi n karena satu bilangan sudah ditemukan
-        n -= 1
+            # mengurangi n karena satu bilangan sudah ditemukan
+            n -= 1
 
